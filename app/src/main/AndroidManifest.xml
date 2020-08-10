@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="a.sign">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- <uses-permission android:name="android.permission.RECEIVE_SMS" /> commented for app publication on play store 09Jun20 -->
+    <!-- <uses-permission android:name="android.permission.SEND_SMS" /> commented for app publication on play store 09Jun20 -->
+    <!-- gets email accounts registered on android -->
+    <!-- To activate Login search keyword ACTIVATELOGIN: uncomment GET_ACCOUNTS permission -->
+    <!-- in Assinad app, this permission is used to list user emails in order to send email when notarization service is confirmed -->
+    <!-- <uses-permission android:name="android.permission.GET_ACCOUNTS" /> -->
+    <!-- To activate Login search keyword ACTIVATELOGIN: uncomment READ_PHONE_STATE permission -->
+    <!-- obtem numero do cel do usuario -->
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> commented for app publication on play store 09Jun20 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- begin block with gcm permissions -->
+    <!-- <uses-permission android:name="android.permission.WAKE_LOCK" /> -->
+    <!-- <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/pen7"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <!--
+        receiver for gcm:  The receiver should require the
+        com.google.android.c2dm.SEND permission, so that only the GCM Framework
+        can send a message to it. If your app uses an IntentService
+        (not required, but a common pattern), this receiver should be an instance
+        of WakefulBroadcastReceiver. A WakefulBroadcastReceiver takes care of creating
+        and managing a partial wake lock for your app.
+        -->
+        <!--
+        service for gcm: A Service (typically an IntentService) to which
+        the WakefulBroadcastReceiver passes off the work of handling the GCM message,
+        while ensuring that the device does not go back to sleep in the process.
+        Including an IntentService is optional—you could choose to process your
+        messages in a regular BroadcastReceiver instead, but realistically, most apps
+        will use a IntentService.
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="a.sign.MainActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <!-- <action android:name="MAINACTIVITY" /> -->
+
+
+                <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DigSigActivity"
+            android:exported="false"
+            android:label="@string/title_section_digital_signatures"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="a.sign.DigSigActivity" />
+        </activity>
+        <activity
+            android:name=".DigCertActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="a.sign.DigCertActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="gray_1">#E0E0E0</color>
+    <color name="gray_2">#C0C0C0</color>
+    <color name="gray_4">#707070</color>
+    <color name="gray_5">#505050</color>
+    <color name="green_8bc34a">#8bc34a</color>
+    <!-- asdf -->
+    <!-- asdf -->
+    <!-- asdf -->
+    <color name="white">#ffffffff</color>
+    <!--http://www.w3schools.com/tags/ref_colorpicker.asp-->
+    <!--http://developer.android.com/design/style/color.html-->
+    <color name="blue_actionbar">#006B8F</color>
+
+    <color name="swipe_color_1">#B6DB49</color>
+    <color name="swipe_color_2">#99CC00</color>
+    <color name="swipe_color_3">#8ABD00</color>
+    <color name="swipe_color_4">#7CAF00</color>
+
+    <!-- more colors... -->
+</resources>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Assinad</string>
+
+    <string name="action_cancel">Cancel</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_import">Import</string>
+    <string name="action_remove_certificate">Remove Certificate</string>
+    <string name="action_send_file">SEND</string>
+    <string name="action_sign">Sign</string>
+
+    <string name="alertdialog_app_upgrade_title">Update</string>
+    <string name="alertdialog_app_upgrade_msg">Please, update your Assinad app as
+        important security updates, bug fixes, and/or new features have been added.</string>
+    <string name="alertdialog_doc_size_exceeded">Currently, the maximum document size that your Android device can process in RAM memory is</string>
+    <string name="alertdialog_doc_sign_title">Sign Document</string>
+    <string name="alertdialog_doc_size_exceeded_title">Document Size Limit Exceeded</string>
+    <string name="alertdialog_import_digital_certificate_title">Import Digital Certificate</string>
+    <string name="alertdialog_internal_problem_msg">A system error has occurred. Please, send an email notifying
+        technical support with a description of the error.</string>
+    <string name="alertdialog_internal_problem_title">System Error</string>
+    <string name="alertdialog_internal_problem_email_msg">A system error has occurred. Please, Fix it.</string>
+    <string name="alertdialog_no_connectivity">Please, connect your phone to an internet network.</string>
+    <string name="alertdialog_no_connectivity_title">No Connectivity</string>
+    <string name="alertdialog_password_digital_certificate">Enter the digital certificate password</string>
+    <string name="alertdialog_user_registration_problem_email_msg">An error occurred in user registration. Please, fix it.</string>
+    <string name="alertdialog_user_registration_problem_msg">Please, send an email notifying technical support to speed up
+        the normalization process.</string>
+
+    <string name="button_title_cancel">Cancelar</string>
+    <string name="button_title_no">No</string>
+    <string name="button_title_ok">OK</string>
+    <string name="button_title_reset_password">Esqueceu sua senha?</string>
+    <string name="button_title_send">Enviar</string>
+    <string name="button_title_yes">Yes</string>
+
+    <string name="email_address">____________</string>
+    <string name="prompt_password">Password</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_section_digital_certificate">Digital Certificate</string>
+    <string name="title_section_digital_certificates">Digital Certificates</string>
+    <string name="title_section_digital_signatures">Signatures</string>
+
+    <string name="toast_certificate_import_already">This certificate has already been imported</string>
+    <string name="toast_certificate_import_success">The certificate was successfully imported</string>
+    <string name="toast_certificate_remove_success">The certificate was successfully removed</string>
+    <string name="toast_file_invalid">Invalid document</string>
+    <string name="toast_file_sign_error">Wrong password, expired certificate, invalid or corrupted document</string>
+    <string name="toast_file_sign_success">The document was successfully signed</string>
+
+    <string name="tv_cpf_cnpj_title">CPF/CNPJ:</string>
+    <string name="tv_document_saved">Your documents are also saved in the following folder:</string>
+    <string name="tv_document_sign">Touch the sign button to sign and send a document.</string>
+    <string name="tv_file_name_title">File Name:</string>
+    <string name="tv_empty_list_digital_certificate">List of digital certificates is empty.</string>
+    <string name="tv_expiration_date_title">Expiration Date:</string>
+    <string name="tv_name_title">Name:</string>
+    <string name="tv_select_digital_certificate">Select a certificate to sign a document:</string>
+
+</resources>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Assinad</string>
+
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_import">Importar</string>
+    <string name="action_remove_certificate">Remover Certificado</string>
+    <string name="action_send_file">ENVIAR</string>
+    <string name="action_sign">Assinar</string>
+
+
+    <string name="alertdialog_app_upgrade_title">Atualização</string>
+    <string name="alertdialog_app_upgrade_msg">Por favor, atualize o aplicativo Assinad, pois houve atualização de itens importantes
+        relacionados a funcionalidades, segurança e/ou correções de erros.</string>
+    <string name="alertdialog_doc_sign_title">Assinar Documento</string>
+    <string name="alertdialog_doc_size_exceeded">No momento, o tamanho máximo de arquivo que seu dispositivo Android pode processar em memória RAM é</string>
+    <string name="alertdialog_doc_size_exceeded_title">Tamanho Limite de Arquivo Excedido</string>
+    <string name="alertdialog_import_digital_certificate_title">Importar Certificado Digital</string>
+    <string name="alertdialog_internal_problem_msg">Um problema interno ocorreu no sistema do
+	    aplicativo. Por favor, envie um email notificando o suporte técnico para acelerar
+	    o processo de normalização.</string>
+    <string name="alertdialog_internal_problem_title">Problema Interno</string>
+    <string name="alertdialog_internal_problem_email_msg">Um problema interno ocorreu no sistema do
+	    aplicativo. Por favor, corrija o erro.</string>
+    <string name="alertdialog_no_connectivity">Por favor, conecte seu celular a uma rede de internet.</string>
+    <string name="alertdialog_no_connectivity_title">Sem Conectividade</string>
+    <string name="alertdialog_password_digital_certificate">Insira a senha do certificado digital</string>
+    <string name="alertdialog_user_registration_problem_email_msg">Um erro ocorreu no cadastramento de usuário. Por favor, corrija-o.</string>
+    <string name="alertdialog_user_registration_problem_msg">Por favor, envie um email notificando o suporte técnico para acelerar
+	    o processo de normalização.</string>
+
+    <string name="button_title_cancel">Cancel</string>
+    <string name="button_title_no">Não</string>
+    <string name="button_title_ok">OK</string>
+    <string name="button_title_reset_password">Forgot password?</string>
+    <string name="button_title_send">Send</string>
+    <string name="button_title_yes">Sim</string>
+
+    <string name="email_address">____________</string>
+    <string name="prompt_password">Senha</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_section_digital_certificate">Certificado Digital</string>
+    <string name="title_section_digital_certificates">Certificados Digitais</string>
+    <string name="title_section_digital_signatures">Assinaturas Digitais</string>
+
+    <string name="toast_certificate_import_already">Esse certificado já foi importado</string>
+    <string name="toast_certificate_import_success">O certificado foi importado com sucesso</string>
+    <string name="toast_certificate_remove_success">O certificado foi removido com sucesso</string>
+    <string name="toast_file_invalid">Documento inválido</string>
+    <string name="toast_file_sign_error">Senha incorreta, certificado expirado, documento inválido ou corrompido</string>
+    <string name="toast_file_sign_success">O documento foi assinado com sucesso</string>
+
+    <string name="tv_cpf_cnpj_title">CPF/CNPJ:</string>
+    <string name="tv_document_saved">Seus documentos também são salvos na seguinte pasta:</string>
+    <string name="tv_document_sign">Toque no botão de Assinar para assinar e enviar um documento.</string>
+    <string name="tv_file_name_title">Nome do Arquivo:</string>
+    <string name="tv_empty_list_digital_certificate">A lista de certificados digitais está vazia.</string>
+    <string name="tv_expiration_date_title">Valido Até:</string>
+    <string name="tv_name_title">Nome:</string>
+    <string name="tv_select_digital_certificate">Selecione um certificado para assinar um documento:</string>
+
+</resources>

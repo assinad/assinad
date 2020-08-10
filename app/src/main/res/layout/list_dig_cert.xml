@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="12dp"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/tv_name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/gray_5"
+        android:typeface="serif"
+        android:text="@string/tv_name_title"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_name_title"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tv_cpf_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_name"
+        android:textColor="@color/gray_5"
+        android:typeface="serif"
+        android:text="@string/tv_cpf_cnpj_title"/>
+
+    <TextView
+        android:id="@+id/tv_cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_cpf_title"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tv_expiration_date_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_cpf"
+        android:textColor="@color/gray_5"
+        android:typeface="serif"
+        android:text="@string/tv_expiration_date_title"/>
+
+    <TextView
+        android:id="@+id/tv_expiration_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_expiration_date_title"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:typeface="serif" />
+
+</RelativeLayout>

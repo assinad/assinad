@@ -1,0 +1,7 @@
+- in ICPBrasilProviderCA.java of chain-icp-brasil-3.3.1 module, change lines from jks to bks:
+    InputStream is = ICPBrasilProviderCA.class.getClassLoader().getResourceAsStream("icpbrasil.bks");
+    keyStore = KeyStore.getInstance("BKS");
+- convert jks to bks using bcprov-jdk15on-161.jar (located in libs)
+    keytool -importkeystore -srckeystore icpbrasil.jks -srcstoretype JKS -srcstorepass changeit -destkeystore icpbrasil.bks -deststoretype BKS -deststorepass changeit -provider org.bouncycastle.jce.provider.BouncyCastleProvider -providerpath bcprov-jdk15on-161.jar
+- after converting jks to bks, copy icpbrasil.bks file to chain-icp-brasil-3.3.1 module in the following folders: /src/main/resources and /scripts_keytool
+- build the module and copy the build target to the project lib
